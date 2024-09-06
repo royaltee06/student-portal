@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="homestyle.css">
+    
+    <title>Student Portal</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <div class="row1">
+                <nav class="navbar navbar-sm navbar-expand-sm navbar-dark" style="background-color: #006400;">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="images-removebg-preview.png" style="height: 50px;">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynavbar">
+                            <h1 class="nav-heading" style="color: white;">Federal University Oye-ekiti</h1>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="d-flex">
+              <div class="p-2 ms-auto bg-secondary border-right"><a href="#" style="color: white;">Home</a></div>
+              <div class="p-2 bg-secondary border-right"><a href="#" style="color: white;">Instructions</a></div>
+              <div class="p-2 bg-secondary border-right"><a href="#" style="color: white;">Admissions</a></div>
+              <div class="p-2 bg-secondary border-right"><a href="#" style="color: white;">Calendar</a></div>
+              <div class="p-2 bg-secondary border-right">
+                <div class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" style="color: white;">Login</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Student login</a></li>
+                    <li><a class="dropdown-item" href="#">Staff login</a></li>
+                    <li><a class="dropdown-item" href="#">Admin login</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-2 bg-secondary"><a href="#" style="color: white;">Help</a></div>
+            </div>
+          </div>
+        <div class="top">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="banner4.jpg" alt="Los Angeles" class="d-block w-100" style="height: 300px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="fuoyeeng.jpg" alt="Chicago" class="d-block w-100" style="height: 300px;">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="container mt-3">
+            <div class="dmodal" style="text-align: center; padding-top: 10px;">
+                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">
+                    IMPORTANT NOTICE
+                </button>
+                <div class="alert alert-success alert-dismissible">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    PLEASE NOTE THAT <strong>THESE INFORMATION ARE SUBJECT TO CHANGES!</strong>
+                </div>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">2024/2025 ADMISSION CLOSING DATE</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                The 2024/2025 admission process ends on 31st October 2025. All applicants are expected to complete their screening process and update their results on the UTME portal.
+                                <br><strong>GOODLUCK</strong>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content row">
+                <div class="col-5 mt-3 mb-3">
+                    <div class="card bg-success">
+                        <div class="card-header">
+                            <p><a href="#" style="color: white;"><strong>2024/2025 POST UTME SCREENING RESULTS NOW RELEASED</strong></a></p>
+                            <p><a href="#" style="color: white;"><strong>Click here to login to Sandwich Application Portal</strong></a></p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-success">
+                                    <strong>Course Registration [Freshers]</strong>
+                                    <p>Closing Date: Monday 30th September, 2024</p>
+                                </li>
+                                <li class="list-group-item list-group-item-success">
+                                    <strong>Course Registration [Returning]</strong>
+                                    <p>Closing Date: Monday 30th September, 2024</p>
+                                </li>
+                                <li class="list-group-item list-group-item-success">
+                                    <strong>Academic Transcript</strong>
+                                    <p>Closing Date: Monday 30th September, 2024</p>
+                                </li>
+                                <li class="list-group-item list-group-item-success">
+                                  <strong>Compendium Fee</strong>
+                                  <p>Closing Date:Monday 30th September,2024</p></li>
+                                  <li class="list-group-item list-group-item-success">
+                                      <strong>Industrial Training and Log Book Fee</strong>
+                                      <p>Closing Date:Monday 30th September,2024</p></li>
+                                      <li class="list-group-item list-group-item-success">
+                                          <strong>Theatre Arts Production Fee</strong>
+                                          <p>Closing Date:Monday 30th September,2024</p></li>
+                                          <li class="list-group-item list-group-item-success">
+                                              <strong>Withdrawn But Transferred Students</strong>
+                                              <p>Closing Date:Monday 30th September,2024</p></li>
+                                              <li class="list-group-item list-group-item-success">
+                                                  <strong>Final Clearance</strong>
+                                                  <p>Closing Date:Monday 30th September,2024</p></li>
+                                                  <li class="list-group-item list-group-item-success">
+                                                      <strong>Student Union Dues</strong>
+                                                      <p>Closing Date:Monday 30th September,2024</p></li>
+                                                      <li class="list-group-item list-group-item-success">
+                                                          <strong>Convocation Fee</strong>
+                                                          <p>Closing Date:Monday 30th September,2024</p></li>
+                                                          <li class="list-group-item list-group-item-success">
+                                                              <strong>Entrepreneurship Fee</strong>
+                                                              <p>Closing Date:Monday 30th September,2024</p></li>
+                                
+                                </ul>
+                                </div>
+                                </div>
+                                </div>
+                                
+                            
+                
+                <div class="col-5 sidebar">
+                    <div class="card-header card-fixed-header bg-success mt-3" style="color: white; font-size: larger;">
+                        <strong>HOT NEWS!</strong>
+                    </div>
+                    <div class="card-body bg-success">
+                        <ul>
+                            <li class="list-group-item list-group-item-success">
+                                <strong>2024/2025 POST-UTME SCREENING RELEASED!</strong>
+                                <p>Candidates are to note that the 2024/2025 POST UTME Results have been released. Candidates can now log in to their individual portal accounts to check their results.</p>
+                            </li>
+                            <li class="list-group-item list-group-item-success">
+                                <strong>2024/2025 ADMISSIONS NOW OPENED</strong>
+                                <p>The Federal University Oye-ekiti (FUOYE) hereby informs all applicants who have applied to FUOYE in the 2024 UTME to visit the screening portal to participate in the online screening exercise.</p>
+                            </li>
+                        <li class="list-group-item list-group-item-success">
+                          <strong>2022/2024 ADMISSION SCREENING EXERCISE (1ST BATCH)</strong>
+                          <p>Are you a student in another university and interested in joining a fast-growing university? FUOYE is the place to be. Click here to download the Application form...</p>
+                        </li>
+                        <li class="list-group-item list-group-item-success">
+                          <strong>2022/2023 ADMISSION SCREENING EXERCISE (1ST BATCH)</strong>
+                          <p>CENTRE FOR CONTINUING EDUCATION (CCE)<br>INSTITUTE OF PART-TIME STUDIES (IPTS)<br>2022/2023 ADMISSION SCREENING EXERCISE (1ST BATCH)
+                          <br> You are hereby invited to attend the screening Exercise(1st Batch) scheduled to hold on Monday 3rd April, 2023 at the Institue of Part-time studies, Ayegbaju Campus by 9am with the following credentials (ORIGINAL COPIES for sightinh and photocopies for submission):
+                          <ol class="list-group list-group-numbered">
+                            <li class="list-group-item list-group-item-secondary">Printed copy of the application Form</li>
+                            <li class="list-group-item list-group-item-secondary">Admission Entry Processing and Screening Fees Receipts</li>
+                            <li class="list-group-item list-group-item-secondary">O'Level Result(s)</li>
+                            <li class="list-group-item list-group-item-secondary">Two(2) Passport Photographs</li>
+                            <li class="list-group-item list-group-item-secondary">OND,NCE & HND Certificate(s) as appropriate</li>
+                            <li class="list-group-item list-group-item-secondary">Birth Certificate/ Declaration of Age</li>
+                          </ol>
+                          </p>
+                        </li>
+                        <li class="list-group-item list-group-item-success">
+                          <strong>SECURITYALERT</strong>
+                          <p>To mitigate the Security threat posed by the on- going construction of the ceremonial road, the Vice Chancellor approved the erection of a Security Iron bar on the road. This will reduce illegal access into the University Main Campus. The iron-bar will be locked by 6pm daily; the Main Gate should be used anytime after 6pm to facilitate appropriate security checks.</p>
+                        </li>
+                        <li class="list-group-item list-group-item-success">
+                          <strong>DURATION AND REQUIREMENTS FOR SANDWICH AND AFFILIATE PROGRAMMES</strong>
+                          <p><strong><ul> (ED) AGRICULTURE: 4 YEAR DEGREE CONTACT</ul></strong> 
+                            Five (5) O’level passes at SSCE/GCE/NECO/NABTEB/TC II at credit level, which must include English Language, Mathematics, Biology/Agriculture Science and Chemistry. 
+                            Candidate also must possess any of: 
+                            NCE Merit pass in Agriculture Science; 
+                            A’ level passes in two of Agriculture Science/Biology, and Chemistry; or
+                            OND in Agriculture Science
+                            
+                            <strong><br><ul>(Ed) AGRICULTURAL SCIENCE EDUCATION: 5 YEAR CONTACT </ul></strong>
+                            
+                            Candidates must possess 5 O’level credit passes which must include Biology/Agriculture Science, Chemistry, Mathematics and English Language.
+                            
+                            
+                            <strong><br><ul> (Ed) BUSINESS EDUCATION: 4 YEAR CONTACT</ul></strong>
+                               Five (5) O’level credit passes which must include English Language, 
+                            Mathematics, Economics and any other two subjects at not more than two sittings. Candidate also must possess any of: 
+                            A merit pass in NCE in Business Education, Secretarial Studies. 
+                            
+                            
+                            <strong><br><ul>B.Sc (Ed) BUSINESS EDUCATION: 5 YEAR CONTACT </ul></strong> 
+                            Five (5) O’level credit passes which must include English Language, Mathematics, Economics and any other two subjects at not more than two sittings.
+                            
+                            
+                            <strong><br><ul>B.Sc (Ed) ECONOMICS 4 YEAR CONTACT</ul></strong>  
+                             At least five (5) O’level credit which must include English Language, 
+                            Mathematics, Economics and any other two Social Science subjects. Candidate also must possess any of: 
+                            Merit pass and above passes in Economics and any relevant Social Science subject 
+                            A’level passes in Economics and one Social Science subject with a grade not less than 4 points. 
+                            
+                            
+                            <strong><br><ul>B.Sc (Ed) ECONOMICS: 5 YEAR CONTACT </ul></strong>  
+                            At least five (5) O’level credit which must include: English Language, Mathematics, Economics and any other two Social Science subjects.
+                            
+                            
+                            <strong><br><ul>B.A.Ed. ENGLISH:  4 YEAR CONTACT </ul></strong>  
+                            Five (5) O’level credit passes which must include English Language, Literature in English and three other subjects from Arts and Social Sciences with at least a pass in Mathematics. Candidate also must possess any of: 
+                            NCE in two Arts subjects one of which must be Literature in English. 
+                            A’ level passes in two Arts subjects which must include Literature in English with a grade not lower than 11 points. 
+                            
+                            
+                            <strong><br><ul>B.A.Ed. ENGLISH: 5 YEAR CONTACT </ul></strong> 
+                            Candidates must possess five (5) O’Level subjects at not more than two sittings which must include English Language, Literature in English, two other subjects in Arts/Social Sciences with a pass in Mathematics.
+                            
+                             
+                            <strong><br><ul>B.Sc (Ed) BIOLOGY 4 YEAR CONTACT</ul></strong>  
+                            At least merit pass and above at NCE in either chemistry or Geography in addition to the UTME requirement of 5 credits in English Language, Mathematics, Chemistry or Geography and Biology. 
+                            
+                            
+                            <strong><br><ul>B.Sc (Ed) BIOLOGY 5 YEAR CONTACT</ul></strong>  
+                            5 O’level credit passes at SSCE/NECO/NABTEB/GCE which should include English Language, Mathematics, Chemistry or Geography and Biology and one other subjects.
+                            
+                            
+                            <strong><br><ul>B.Sc (Ed) CHEMISTRY 4 YEAR CONTACT </ul></strong>  
+                            Five (5) O’level credit passes at SSCE/NECO/NABTEB or its equivalent which must include: English Language, Mathematics and Chemistry. Candidate also must possess any of: 
+                            Merit pass in Chemistry Education at NCE. 
+                            A level passes which must include Chemistry. 
+                            
+                            
+                            <strong><br><ul>B.Sc (Ed) CHEMISTRY 5 YEAR CONTACT</ul></strong>  
+                            5 O’level credit passes in SSCE/NECO/NABTEB or its equivalent which must include: English Language, Mathematics and Chemistry.
+                            
+                            
+                            <strong><br><ul>B.Sc. Ed. EDUCATIONAL TECHNOLOGY: 4 YEAR CONTACT</ul></strong>  
+                            Candidates should possess five (5) O’Level credits which should include English Language, Mathematics, Physics or Chemistry and any other two subjects at not more than two sittings. Candidate also must possess any of: 
+                            At least Merit pass in NCE: Technical Education or its equivalent. 
+                            OND with Upper credit in Technical Education. 
+                            A level passes in any combination of Mathematics, Physics or Chemistry with a grade not below 4 points. 
+                            
+                            
+                            <strong><br><ul>B.Sc. Ed. EDUCATIONAL TECHNOLOGY: 5 YEAR CONTACT</ul></strong>  
+                            Candidates for admission into the programme should possess 5 O’level credit or its equivalent which must include English Language, Mathematics, Physics or Chemistry and any other two subjects at not more than two sittings.
+                            
+                            
+                            <strong><br><ul>B.Sc. Ed. HEALTH EDUCATION: 4 YEAR CONTACT</ul> </strong> 
+                            Five (5) credit passes in O’level at not more than two sittings to include English Language, Mathematics, Biology and any other two subjects. Candidate also must possess any of: 
+                            Merit pass at NCE in Health Education.
+                            
+                             
+                            <strong><br><ul>B.Sc. Ed. HEALTH EDUCATION: 5 YEAR CONTACT </ul></strong>  
+                            Five (5) O’level credit passes in English Language, Mathematics, Biology and any other two subjects at not more than two sittings.
+                            
+                            
+                            <strong><br><ul>B.Sc. Ed. HUMAN KINETICS EDUCATION: 4 YEAR CONTACT</ul> </strong> 
+                             Five (5) O’level passes at credit in English Language, Mathematics, Biology/Health Science/Integrated Science and any other two at not more than two sittings. Candidate also must possess any of: 
+                            NCE in Physical and Health Education with Education.
+                            
+                            
+                            <strong><br><ul>B.Sc. Ed. HUMAN KINETICS: 5 YEAR CONTACT</ul></strong>  
+                            Five (5) O’level credits in English Language, Mathematics, Biology/Health Science/Integrated Science and any other two subjects</p>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                    
+                      </div>
+                  </div>
+           </div>
+        </div>
+        <div class="container">
+          <div class="footer">
+              Powered by Information & Communication Technology || Federal University Oye - Ekiti © 2024, All Rights Reserved
+          </div>
+      </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+body{
+    background-image: linear-gradient(#008000, whitesmoke );
+}
+.container {
+    background-color: whitesmoke;
+}
+.header {
+    max-height: 20px;
+    background-color: #006400;
+}
+.d-flex {
+    background-color: #90EE90;
+    color: white;
+}
+.top {
+    margin-top: 120px;
+}
+.card {
+    border-radius: 40px;
+    margin-left: 20px;
+    
+}
+.card-fixed-header {
+    display: flex;
+    flex-direction: column;
+     /* Adjust the height as needed */
+  }
+  .card-fixed-header .card-header {
+    flex: 0 0 auto; /* Prevent header from shrinking */
+  }
+  .card-fixed-header .card-body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+
+
+.footer{
+    background-color: #006400;
+    text-align: center;
+    font-weight: bolder;
+}
+.sidebar {
+    overflow-y: scroll;
+    max-height: 600px;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
